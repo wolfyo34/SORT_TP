@@ -1,0 +1,41 @@
+{
+  "name": "example-2021-utest",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --recursive",
+    "code-style": "xo"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs-node-gpu": "^3.3.0",
+    "bluebird": "^3.7.2",
+    "chai": "^4.3.4",
+    "fs-extra": "^9.1.0",
+    "jpeg-js": "^0.4.3",
+    "mocha": "^8.3.2",
+    "xo": "^0.38.2"
+  },
+  "xo": {
+    "space": 2,
+    "prettier": true,
+    "rules": {
+      "unicorn/no-fn-reference-in-iterator": 0,
+      "unicorn/no-array-callback-reference": 0,
+      "unicorn/no-reduce": 0
+    },
+    "envs": [
+      "mocha"
+    ]
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "main": "index.js"
+}
