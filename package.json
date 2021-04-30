@@ -1,6 +1,7 @@
 {
   "name": "example-2021-utest",
   "version": "0.0.1",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
@@ -24,6 +25,7 @@
     "space": 2,
     "prettier": true,
     "rules": {
+      "import/no-unassigned-import": 0,
       "unicorn/no-fn-reference-in-iterator": 0,
       "unicorn/no-array-callback-reference": 0,
       "unicorn/no-reduce": 0

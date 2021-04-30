@@ -6,7 +6,7 @@ const {
 } = require('../../app/results-formatter');
 
 describe('app/results-formatter', () => {
-  // describe('#computeStandings()', () => {});
+  // Describe('#computeStandings()', () => {});
 
   describe('#formatResults()', () => {
     it('should parse csv format', () => {
