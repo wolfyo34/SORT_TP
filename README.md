@@ -1,4 +1,6 @@
 # SORT_TP
+Le groupe est composé de David Urdes, Antoine Terracol, Terry Mubaya, Yoann Martinoli.
+
 Le code est constitué de 2 fichiers (functions.js et index.js).
 Le premier fichier regroupe toutes les fonctions nécessaires au bon fonctionnement du code tel que des fonctions de déplacement de fichier, creation de dossier...
 Nous avons ajouté la ligne  "type": "module" dans le fichier json nous permettant de pouvoir faire communiquer les 2 fichiers entre eux avec les import/export de fonctions.
